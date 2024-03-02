@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
+    <title>Projeto Boletim</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>Boletim Online</h1>
+        </div>
+        <nav id="navBar">
+            <ul class="listaNavBar">
+                <li><a href="https://www.sp.senai.br/" target="_blank">Instituição</a></li>
+                <li><a href="https://www.instagram.com/senai_nacional/?hl=pt" target="_blank">Contato</a></li>
+                <li><a href="https://www.youtube.com/channel/UCzqd0VpWU_w4BKwmSvFdieQ" target="_blank">YouTube</a></li>
+                <li id="liBtnDevs">
+                    <a href="#" id="linkBtnDevs">Desenvolvedores</a>
+                    <ul id="dropdown">    
+                        <li> <a href="https://github.com/CauaSilvaChz" target="_blank"> <img src="img/github.png" alt="" > <span> Cauã </span> </a> </li>
+                        <li> <a href="https://github.com/leoguims" target="_blank"> <img src="img/github.png" alt=""> <span> Leonardo </span> </a> </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="mobilemenu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3 "></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="divImgMain">
+            <img id="imgMain" src="img/divMainImg.png" alt="imgMain">
+        </div>
+        <div id="container" class="limpar">
+            <div id="primeiroSubtitulo">
+                <h3>Digite as informações do aluno </h3>
+            </div>
+            <div id="containerForm">
+                <div id="segundoSubtitulo">
+                    <h3>Aluno</h3>
+                </div>
+                <div id="divInputNome">
+                    <input type="text" name="nomeAluno" id="nomeAluno" placeholder="Nome do aluno">
+                </div>
+                <div id="containerNotas">
+                    <div id="containerInputNotas">
+                        <input type="number" name="primeiraNota" id="primeiraNota" placeholder="Primeira nota">
+                        <input type="number" name="segundaNota" id="segundaNota" placeholder="Segunda nota">
+                        <input type="number" name="terceiraNota" id="terceiraNota" placeholder="Terceira nota">
+                        <input type="number" name="quartaNota" id="quartaNota" placeholder="Quarta nota">
+                    </div>
+                    <div id="divImgBooks">
+                        <img src="img/divBookImg.png" alt="">
+                    </div>    
+                </div>
+            </div>
+            <div id="divInstrucoes">
+                <div id="instrucoes">
+                    <p>
+                    Escolha entre mostrar as informações dos alunos já cadastrados ou cadastrar o próximo aluno.
+                    </p>
+                </div>
+                <div id="botoes">
+                    <button id="btnCadastro">Cadastrar Aluno</button>
+                    <button id="btnShow">Mostrar informações</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

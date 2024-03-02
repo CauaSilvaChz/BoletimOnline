@@ -1,0 +1,82 @@
+.containerImpressao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 250px;
+    gap: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    .containerNomeAluno{
+        h3{
+            font-size: 30px;
+        }
+    }
+    .containerNotasImpressao{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .spanNotas{
+            font-weight: bold;
+            color: #000000;
+        }
+    }
+    .resultado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        margin-top: 10px;
+        span{
+            font-weight: 600;
+            font-style: italic;
+            color: #000000;
+        }
+    }
+}
+
+.limpar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: fit-content;
+    height: 450px;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 3%;
+    margin-right: -7%;
+    background-color: white;
+    box-shadow: 27px 27px 4px rgba(0, 0, 0, 0.25);
+}
+
+.backgroundAprovado{
+    border: 2px solid #3aad44;
+    box-shadow: 0px 0px 12px 4px #25ff0078;
+    border-radius: 5px;
+}
+.backgroundRec{
+    border: 2px solid #e5f13c;
+    box-shadow: 0px 0px 12px 4px #888f26;
+    border-radius: 5px;
+}
+.backgroundReprovado{
+    border: 2px solid #ff0000;
+    box-shadow: 0px 0px 12px 4px #6d0303;
+    border-radius: 5px;
+}
+
+.containerAluno{
+    margin-top: 40px;
+}
+
+.containerMediaTurma{
+    width: max-content;
+    .mediaTurma{
+        font-size: 24px;
+        font-weight: bold;
+        font-style: italic;
+        color: #245970;
+    }
+}
